@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Cohesion.Challenge.CRUD.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Cohesion.Challenge.CRUD.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cohesion.Challenge.CRUD.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Cohesion.Challenge.CRUD.Model/1.0.0": {
+      "type": "project",
+      "path": "../Cohesion.Challenge.CRUD.Model/Cohesion.Challenge.CRUD.Model.csproj",
+      "msbuildProject": "../Cohesion.Challenge.CRUD.Model/Cohesion.Challenge.CRUD.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Cohesion.Challenge.CRUD.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ignacio.coria\\.nuget\\packages\\": {}
@@ -34,7 +53,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Model\\Cohesion.Challenge.CRUD.Model.csproj": {
+              "projectPath": "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Model\\Cohesion.Challenge.CRUD.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
