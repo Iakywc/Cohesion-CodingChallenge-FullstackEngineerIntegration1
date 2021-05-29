@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mEpzFWYbPjvG3lOHsmdSOCS07k3GHdpvC9gJqX6HVC55a2W564g1/2HsfHOmmvPmayPzsEmxFXbDabuOwn48lg==",
+  "dgSpecHash": "MnTDrLzmGtnKOaB7Lu1lVI9dmHlyw/BkU+DeEk7oGi3LTTlyNZdMrvPiRUdepUCkzpCWPc5YlB9dP/cWwCUaDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Api\\Cohesion.Challenge.CRUD.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ignacio.coria\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

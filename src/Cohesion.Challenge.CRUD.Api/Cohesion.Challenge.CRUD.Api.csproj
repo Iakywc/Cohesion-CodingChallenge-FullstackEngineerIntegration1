@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,7 +6,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cohesion.Challenge.CRUD.Api.Contract\Cohesion.Challenge.CRUD.Api.Contract.csproj" />
+    <ProjectReference Include="..\Cohesion.Challenge.CRUD.Application\Cohesion.Challenge.CRUD.Application.csproj" />
     <ProjectReference Include="..\Cohesion.Challenge.CRUD.Model\Cohesion.Challenge.CRUD.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mappings\" />
   </ItemGroup>
 
 
