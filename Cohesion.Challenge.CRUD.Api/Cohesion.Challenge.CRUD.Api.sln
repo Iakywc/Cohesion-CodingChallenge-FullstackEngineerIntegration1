@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cohesion.Challenge.CRUD.Api", "Cohesion.Challenge.CRUD.Api\Cohesion.Challenge.CRUD.Api.csproj", "{5C02B79C-9009-4E9B-AC4E-B099500568FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C02B79C-9009-4E9B-AC4E-B099500568FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C02B79C-9009-4E9B-AC4E-B099500568FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C02B79C-9009-4E9B-AC4E-B099500568FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C02B79C-9009-4E9B-AC4E-B099500568FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7438442C-02C1-4F3D-A40E-D32DB5A46E1E}
+	EndGlobalSection
+EndGlobal
