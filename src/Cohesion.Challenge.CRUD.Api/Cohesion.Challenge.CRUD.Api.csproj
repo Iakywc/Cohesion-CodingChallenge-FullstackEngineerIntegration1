@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cohesion.Challenge.CRUD.Api.Contract\Cohesion.Challenge.CRUD.Api.Contract.csproj" />
+    <ProjectReference Include="..\Cohesion.Challenge.CRUD.Model\Cohesion.Challenge.CRUD.Model.csproj" />
+  </ItemGroup>
+
 
 </Project>

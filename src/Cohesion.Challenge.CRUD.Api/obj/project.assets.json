@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Cohesion.Challenge.CRUD.Api.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Cohesion.Challenge.CRUD.Api.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cohesion.Challenge.CRUD.Api.Contract.dll": {}
+        }
+      },
+      "Cohesion.Challenge.CRUD.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Cohesion.Challenge.CRUD.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cohesion.Challenge.CRUD.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Cohesion.Challenge.CRUD.Api.Contract/1.0.0": {
+      "type": "project",
+      "path": "../Cohesion.Challenge.CRUD.Api.Contract/Cohesion.Challenge.CRUD.Api.Contract.csproj",
+      "msbuildProject": "../Cohesion.Challenge.CRUD.Api.Contract/Cohesion.Challenge.CRUD.Api.Contract.csproj"
+    },
+    "Cohesion.Challenge.CRUD.Model/1.0.0": {
+      "type": "project",
+      "path": "../Cohesion.Challenge.CRUD.Model/Cohesion.Challenge.CRUD.Model.csproj",
+      "msbuildProject": "../Cohesion.Challenge.CRUD.Model/Cohesion.Challenge.CRUD.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Cohesion.Challenge.CRUD.Api.Contract >= 1.0.0",
+      "Cohesion.Challenge.CRUD.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ignacio.coria\\.nuget\\packages\\": {}
@@ -34,7 +69,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Api.Contract\\Cohesion.Challenge.CRUD.Api.Contract.csproj": {
+              "projectPath": "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Api.Contract\\Cohesion.Challenge.CRUD.Api.Contract.csproj"
+            },
+            "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Model\\Cohesion.Challenge.CRUD.Model.csproj": {
+              "projectPath": "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Model\\Cohesion.Challenge.CRUD.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
