@@ -10,9 +10,5 @@
     <ProjectReference Include="..\Cohesion.Challenge.CRUD.Model\Cohesion.Challenge.CRUD.Model.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Mappings\" />
-  </ItemGroup>
-
 
 </Project>

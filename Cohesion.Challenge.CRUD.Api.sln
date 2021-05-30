@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cohesion.Challenge.CRUD.Api
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{130B659F-9465-466D-8AA7-432D64881D58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cohesion.Challenge.CRUD.Api.Contract", "src\Cohesion.Challenge.CRUD.Api.Contract\Cohesion.Challenge.CRUD.Api.Contract.csproj", "{F591546B-A6E5-4CA2-B4F4-EC63B11C3060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cohesion.Challenge.CRUD.Api.Contract", "src\Cohesion.Challenge.CRUD.Api.Contract\Cohesion.Challenge.CRUD.Api.Contract.csproj", "{F591546B-A6E5-4CA2-B4F4-EC63B11C3060}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{F5BA5F2C-B81B-4DEB-910D-5BE969F4DF29}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{29443A63-E1EB-4982-8DEE-2ADDB657387E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cohesion.Challenge.CRUD.Repository", "src\Cohesion.Challenge.CRUD.Repository\Cohesion.Challenge.CRUD.Repository.csproj", "{6A679BA6-A6B0-4C17-A4AE-0969C2E899C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cohesion.Challenge.CRUD.Repository", "src\Cohesion.Challenge.CRUD.Repository\Cohesion.Challenge.CRUD.Repository.csproj", "{6A679BA6-A6B0-4C17-A4AE-0969C2E899C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cohesion.Challenge.CRUD.Application", "src\Cohesion.Challenge.CRUD.Application\Cohesion.Challenge.CRUD.Application.csproj", "{7D685D9B-173E-447B-B23B-753D9A80297D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cohesion.Challenge.CRUD.Application", "src\Cohesion.Challenge.CRUD.Application\Cohesion.Challenge.CRUD.Application.csproj", "{7D685D9B-173E-447B-B23B-753D9A80297D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cohesion.Challenge.CRUD.Model", "src\Cohesion.Challenge.CRUD.Model\Cohesion.Challenge.CRUD.Model.csproj", "{0CF21B89-BDD7-4D5D-AD0A-AC5CC7CCBFA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cohesion.Challenge.CRUD.Model", "src\Cohesion.Challenge.CRUD.Model\Cohesion.Challenge.CRUD.Model.csproj", "{0CF21B89-BDD7-4D5D-AD0A-AC5CC7CCBFA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AC828615-5634-452E-9F2C-901C436E9BEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
