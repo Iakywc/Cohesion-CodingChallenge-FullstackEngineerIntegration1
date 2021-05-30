@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Cohesion.Challenge.CRUD.Application.Interfaces;
 using Cohesion.Challenge.CRUD.Model.Enums;
+using Cohesion.Challenge.CRUD.Model.Models;
 
 namespace Cohesion.Challenge.CRUD.Application.Commands
 {
@@ -33,15 +35,36 @@ namespace Cohesion.Challenge.CRUD.Application.Commands
 
     public class CreateServiceRequestCommandHandler : ICreateServiceRequestCommandHandler
     {
-        public CreateServiceRequestCommandHandler()
+        private readonly IServiceRequestRepository _requestRepository;
+
+        public CreateServiceRequestCommandHandler(IServiceRequestRepository requestRepository)
         {
-            
+            _requestRepository = requestRepository;
         }
 
         public async Task<bool> CreateServiceRequest(CreateServiceRequestCommand command,
             CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var service = new ServiceRequest(command.Id
+                , command.BuildingCode
+                , command.Description
+                , command.CurrentStatus
+                , command.CreatedBy
+                , command.CreatedDate
+                , command.LastModifiedBy
+                , command.LastModifiedDate);
+
+                await _requestRepository.CreateServiceRequest(service, cancellationToken);
+
+                return true;
+            }
+            catch (Exception e)
+            {
+                //Log error and return result
+                return false;
+            }
         }
     }
 }

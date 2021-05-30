@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Cohesion.Challenge.CRUD.Application.Interfaces;
 using Cohesion.Challenge.CRUD.Model.Models;
 
 namespace Cohesion.Challenge.CRUD.Application.Queries
@@ -17,15 +18,16 @@ namespace Cohesion.Challenge.CRUD.Application.Queries
 
     public class GetServiceRequestByIdQueryHandler : IGetServiceRequestByIdQueryHandler
     {
-        public GetServiceRequestByIdQueryHandler()
+        private readonly IServiceRequestRepository _requestRepository;
+        public GetServiceRequestByIdQueryHandler(IServiceRequestRepository requestRepository)
         {
-            
+            _requestRepository = requestRepository;
         }
 
         public async Task<ServiceRequest> GetServiceRequestById(GetServiceRequestByIdQuery query
             , CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return await _requestRepository.GetServiceRequestById(query.Id.ToString(), cancellationToken);
         }
     }
 }

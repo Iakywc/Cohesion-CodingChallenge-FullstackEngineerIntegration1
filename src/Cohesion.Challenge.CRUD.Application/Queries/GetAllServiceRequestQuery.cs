@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Cohesion.Challenge.CRUD.Application.Interfaces;
 using Cohesion.Challenge.CRUD.Model.Models;
 
 namespace Cohesion.Challenge.CRUD.Application.Queries
@@ -13,14 +14,16 @@ namespace Cohesion.Challenge.CRUD.Application.Queries
 
     public class GetAllServiceRequestQueryHandler : IGetAllServiceRequestQueryHandler
     {
-        public GetAllServiceRequestQueryHandler()
+        private readonly IServiceRequestRepository _requestRepository;
+
+        public GetAllServiceRequestQueryHandler(IServiceRequestRepository requestRepository)
         {
-            
+            _requestRepository = requestRepository;
         }
 
         public async Task<IEnumerable<ServiceRequest>> GetAllServiceRequests(CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return await _requestRepository.GetAllSerivceRequest(cancellationToken);
         }
     }
 }

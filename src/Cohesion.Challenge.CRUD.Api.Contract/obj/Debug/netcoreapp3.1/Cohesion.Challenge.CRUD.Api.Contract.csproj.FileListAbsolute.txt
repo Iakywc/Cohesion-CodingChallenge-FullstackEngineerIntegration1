@@ -1,0 +1,9 @@
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Api.Contract\bin\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Api.Contract.deps.json
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Api.Contract\bin\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Api.Contract.dll
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Api.Contract\bin\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Api.Contract.pdb
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Api.Contract\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Api.Contract.csprojAssemblyReference.cache
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Api.Contract\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Api.Contract.AssemblyInfoInputs.cache
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Api.Contract\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Api.Contract.AssemblyInfo.cs
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Api.Contract\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Api.Contract.csproj.CoreCompileInputs.cache
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Api.Contract\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Api.Contract.dll
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Api.Contract\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Api.Contract.pdb

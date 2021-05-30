@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Cohesion.Challenge.CRUD.Application.Interfaces;
 using Cohesion.Challenge.CRUD.Model.Enums;
+using Cohesion.Challenge.CRUD.Model.Models;
 
 namespace Cohesion.Challenge.CRUD.Application.Commands
 {
@@ -26,22 +28,33 @@ namespace Cohesion.Challenge.CRUD.Application.Commands
         public string Description { get; }
         public CurrentStatus CurrentStatus { get; }
         public string CreatedBy { get; }
-        public DateTime? CreatedDate { get; }
+        public DateTime CreatedDate { get; }
         public string LastModifiedBy { get; }
-        public DateTime? LastModifiedDate { get; }
+        public DateTime LastModifiedDate { get; }
     }
 
     public class UpdateServiceRequestCommandHandler : IUpdateServiceRequestCommandHandler
     {
-        public UpdateServiceRequestCommandHandler()
+        private readonly IServiceRequestRepository _requestRepository;
+
+        public UpdateServiceRequestCommandHandler(IServiceRequestRepository requestRepository)
         {
-            
+            _requestRepository = requestRepository;
         }
 
-        public Task<bool> UpdateServiceRequestById(UpdateServiceRequestCommand command
+        public async Task UpdateServiceRequestById(UpdateServiceRequestCommand command
             , CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var service = new ServiceRequest(command.Id
+                , command.BuildingCode
+                , command.Description
+                , command.CurrentStatus
+                , command.CreatedBy
+                , command.CreatedDate
+                , command.LastModifiedBy
+                , command.LastModifiedDate);
+
+            await _requestRepository.UpdateServiceRequest(service, cancellationToken);
         }
     }
 }

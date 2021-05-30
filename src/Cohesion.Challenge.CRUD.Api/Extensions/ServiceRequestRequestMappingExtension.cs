@@ -6,7 +6,7 @@ using Cohesion.Challenge.CRUD.Model.Enums;
 
 namespace Cohesion.Challenge.CRUD.Api.Extensions
 {
-    public static class ServiceRequestMappingExtension
+    public static class ServiceRequestRequestMappingExtension
     {
         public static GetServiceRequestByIdQuery ToQuery(this string request)
         {

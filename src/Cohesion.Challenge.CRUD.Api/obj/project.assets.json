@@ -44,6 +44,20 @@
         "runtime": {
           "bin/placeholder/Cohesion.Challenge.CRUD.Model.dll": {}
         }
+      },
+      "Cohesion.Challenge.CRUD.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Cohesion.Challenge.CRUD.Application": "1.0.0",
+          "Cohesion.Challenge.CRUD.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cohesion.Challenge.CRUD.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cohesion.Challenge.CRUD.Repository.dll": {}
+        }
       }
     }
   },
@@ -82,13 +96,19 @@
       "type": "project",
       "path": "../Cohesion.Challenge.CRUD.Model/Cohesion.Challenge.CRUD.Model.csproj",
       "msbuildProject": "../Cohesion.Challenge.CRUD.Model/Cohesion.Challenge.CRUD.Model.csproj"
+    },
+    "Cohesion.Challenge.CRUD.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Cohesion.Challenge.CRUD.Repository/Cohesion.Challenge.CRUD.Repository.csproj",
+      "msbuildProject": "../Cohesion.Challenge.CRUD.Repository/Cohesion.Challenge.CRUD.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Cohesion.Challenge.CRUD.Api.Contract >= 1.0.0",
       "Cohesion.Challenge.CRUD.Application >= 1.0.0",
-      "Cohesion.Challenge.CRUD.Model >= 1.0.0"
+      "Cohesion.Challenge.CRUD.Model >= 1.0.0",
+      "Cohesion.Challenge.CRUD.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -127,6 +147,9 @@
             },
             "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Model\\Cohesion.Challenge.CRUD.Model.csproj": {
               "projectPath": "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Model\\Cohesion.Challenge.CRUD.Model.csproj"
+            },
+            "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Repository\\Cohesion.Challenge.CRUD.Repository.csproj": {
+              "projectPath": "C:\\Users\\ignacio.coria\\source\\test\\Cohesion-CodingChallenge-FullstackEngineerIntegration1\\src\\Cohesion.Challenge.CRUD.Repository\\Cohesion.Challenge.CRUD.Repository.csproj"
             }
           }
         }

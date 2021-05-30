@@ -1,4 +1,5 @@
 using Cohesion.Challenge.CRUD.Application;
+using Cohesion.Challenge.CRUD.Repository.LocalServiceRequest;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +23,8 @@ namespace Cohesion.Challenge.CRUD.Api
         {
             services.AddControllers();
             services.AddApplication();
+            services.AddRepository();
+
             services.AddHealthChecks()
                 .AddCheck("self", () => HealthCheckResult.Healthy());
         }

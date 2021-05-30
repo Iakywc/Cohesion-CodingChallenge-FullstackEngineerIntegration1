@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Cohesion.Challenge.CRUD.Api.Contract.CreateServiceRequest;
 using Cohesion.Challenge.CRUD.Api.Extensions;
 using Cohesion.Challenge.CRUD.Application.Commands;
+using Cohesion.Challenge.CRUD.Application.Interfaces;
 using Cohesion.Challenge.CRUD.Application.Queries;
 using Cohesion.Challenge.CRUD.Model.Models;
 using Microsoft.AspNetCore.Http;
@@ -89,11 +91,18 @@ namespace Cohesion.Challenge.CRUD.Api.Controllers
                 //Add Validation - To make all fields are accurate
                 var command = request.ToCommand(id);
 
-                if (await _updateServiceRequest.UpdateServiceRequestById(command, cancellationToken))
-                    return Ok("updated service request");
-                
+                await _updateServiceRequest.UpdateServiceRequestById(command, cancellationToken);
+
+                return Ok("updated service request");
+            }
+
+            catch (Exception e) when (e is NullReferenceException 
+                                      || e is DirectoryNotFoundException
+                                      || e is FileNotFoundException)
+            {
                 return NotFound();
             }
+
             catch (Exception e)
             {
                 return BadRequest();

@@ -2,3 +2,11 @@ C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerInt
 C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.csprojAssemblyReference.cache
 C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.AssemblyInfoInputs.cache
 C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.AssemblyInfo.cs
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\bin\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.deps.json
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\bin\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.dll
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\bin\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.pdb
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\bin\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Model.pdb
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.csproj.CoreCompileInputs.cache
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.csproj.CopyComplete
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.dll
+C:\Users\ignacio.coria\source\test\Cohesion-CodingChallenge-FullstackEngineerIntegration1\src\Cohesion.Challenge.CRUD.Application\obj\Debug\netcoreapp3.1\Cohesion.Challenge.CRUD.Application.pdb

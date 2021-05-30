@@ -8,6 +8,7 @@
     <ProjectReference Include="..\Cohesion.Challenge.CRUD.Api.Contract\Cohesion.Challenge.CRUD.Api.Contract.csproj" />
     <ProjectReference Include="..\Cohesion.Challenge.CRUD.Application\Cohesion.Challenge.CRUD.Application.csproj" />
     <ProjectReference Include="..\Cohesion.Challenge.CRUD.Model\Cohesion.Challenge.CRUD.Model.csproj" />
+    <ProjectReference Include="..\Cohesion.Challenge.CRUD.Repository\Cohesion.Challenge.CRUD.Repository.csproj" />
   </ItemGroup>
 
 

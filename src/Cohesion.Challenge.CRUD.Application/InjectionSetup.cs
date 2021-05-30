@@ -1,4 +1,5 @@
 ﻿using Cohesion.Challenge.CRUD.Application.Commands;
+using Cohesion.Challenge.CRUD.Application.Interfaces;
 using Cohesion.Challenge.CRUD.Application.Queries;
 using Microsoft.Extensions.DependencyInjection;
 
